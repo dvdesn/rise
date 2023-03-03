@@ -1,0 +1,569 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Grace-Church\n"
+"POT-Creation-Date: 2019-08-24 16:03+0300\n"
+"PO-Revision-Date: 2019-04-08 14:56+0300\n"
+"Last-Translator: \n"
+"Language-Team: AncoraThemes\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-KeywordsList: _e;gettext;gettext_noop;__;_x;_n_noop\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: functions.php:214
+#, php-format
+msgid "For further details on handling user data, see our %s"
+msgstr ""
+
+#: functions.php:216
+msgid "Privacy Policy"
+msgstr ""
+
+#: fw/core/core.customizer/core.customizer.php:976
+msgid ""
+"Select fonts, sizes and styles for the headings and paragraphs. You can use "
+"Google fonts and custom fonts.<br><br>How to install custom @font-face fonts "
+"into the theme?<br>All @font-face fonts are located in \"theme_name/css/font-"
+"face/\" folder in the separate subfolders for the each font. Subfolder name "
+"is a font-family name!<br>Place full set of the font files (for each font "
+"style and weight) and css-file named stylesheet.css in the each subfolder."
+"<br>Create your @font-face kit by using Fontsquirrel @font-face Generator "
+"(or any other) and then extract the font kit (with folder in the kit) into "
+"the \"theme_name/css/font-face\" folder to install."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:393
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:394
+#: fw/lib/tgm/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:395
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2427
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2567
+msgid "unknown"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/theme.options.php:121
+msgid "Select body style:"
+msgstr ""
+
+#: includes/theme.options.php:123
+msgid "<b>boxed</b> - if you want use background color and/or image"
+msgstr ""
+
+#: includes/theme.options.php:125
+msgid "<b>wide</b> - page fill whole window with centered content"
+msgstr ""
+
+#: includes/theme.options.php:127
+msgid ""
+"<b>fullwide</b> - page content stretched on the full width of the window "
+"(with few left and right paddings)"
+msgstr ""
+
+#: includes/theme.options.php:130
+msgid "<b>fullscreen</b> - page content fill whole window without any paddings"
+msgstr ""
+
+#: includes/theme.options.php:474
+msgid "Fix menu position"
+msgstr ""
+
+#: includes/theme.options.php:475
+msgid "Don't fix menu position"
+msgstr ""
+
+#: includes/theme.options.php:752
+msgid "Boxed"
+msgstr ""
+
+#: includes/theme.options.php:753
+msgid "Fullwide"
+msgstr ""
+
+#: includes/theme.options.php:754
+msgid "Fullscreen"
+msgstr ""
+
+#: includes/theme.options.php:795
+msgid "Do you want to show the last 10 Events on slider."
+msgstr ""
+
+#: includes/theme.options.php:797
+msgid "Only if there are events."
+msgstr ""
+
+#: includes/theme.options.php:1489
+msgid "Specify text with Privacy Policy link for the checkbox 'I agree ...'"
+msgstr ""
+
+#: includes/theme.options.php:1490
+msgid "I agree that my submitted data is being collected and stored."
+msgstr ""
+
+#: includes/theme.options.php:1502
+msgid "Style shortcode"
+msgstr ""
+
+#: includes/theme.options.php:1504
+msgid "Time Line"
+msgstr ""
+
+#: includes/theme.options.php:1505
+msgid "Choose a \"Standard\" for displaying default."
+msgstr ""
+
+#: includes/theme.options.php:1507
+msgid ""
+"Or a \"Customizable\" style for shortcode to control through its "
+"configuration."
+msgstr ""
+
+#: includes/theme.options.php:2005
+msgid "5 stars"
+msgstr ""
+
+#: includes/theme.options.php:2006
+msgid "10 stars"
+msgstr ""
+
+#: includes/theme.options.php:2007
+msgid "100%"
+msgstr ""
+
+#: includes/theme.options.php:2053
+msgid "All visitors"
+msgstr ""
+
+#: includes/theme.options.php:2054
+msgid "Only registered"
+msgstr ""
+
+#: includes/theme.options.php:2190
+msgid "Add button's code for each social share network."
+msgstr ""
+
+#: includes/theme.options.php:2192
+msgid "In share url you can use next macro:"
+msgstr ""
+
+#: includes/theme.options.php:2194
+msgid "<b>{url}</b> - share post (page) URL,"
+msgstr ""
+
+#: includes/theme.options.php:2196
+msgid "<b>{title}</b> - post title,"
+msgstr ""
+
+#: includes/theme.options.php:2198
+msgid "<b>{image}</b> - post image,"
+msgstr ""
+
+#: includes/theme.options.php:2200
+msgid "<b>{descr}</b> - post description (if supported)"
+msgstr ""
+
+#: includes/theme.options.php:2202
+msgid "For example:"
+msgstr ""
+
+#: includes/theme.options.php:2204
+msgid ""
+"<b>Facebook</b> share string: <em>http://www.facebook.com/sharer.php?u={link}"
+"&amp;t={title}</em>"
+msgstr ""
+
+#: includes/theme.options.php:2206
+msgid ""
+"<b>Delicious</b> share string: <em>http://delicious.com/save?url={link}&amp;"
+"title={title}&amp;note={descr}</em>"
+msgstr ""
+
+#: includes/theme.options.php:2245
+msgid "Select icon and write share URL for desired social networks."
+msgstr ""
+
+#: includes/theme.options.php:2247
+msgid ""
+"<b>Important!</b> If you leave text field empty - internal theme link will "
+"be used (if present)."
+msgstr ""
+
+#: includes/theme.options.php:2261
+msgid "Put to this section Twitter API 1.1 keys."
+msgstr ""
+
+#: includes/theme.options.php:2263
+msgid ""
+"You can take them after registration your application in <strong>https://"
+"apps.twitter.com/</strong>"
+msgstr ""
+
+#: includes/theme.options.php:2567
+msgid ""
+"Show additional filters (on post formats, tags and categories) in admin "
+"panel page \"Posts\"."
+msgstr ""
+
+#: includes/theme.options.php:2569
+msgid ""
+"Attention! If you have more than 2.000-3.000 posts, enabling this option may "
+"cause slow load of the \"Posts\" page! If you encounter such slow down, "
+"simply open Appearance - Theme Options - Service and set \"No\" for this "
+"option."
+msgstr ""
+
+#: includes/theme.options.php:2590
+msgid ""
+"Show \"Install Dummy Data\" in the menu \"Appearance\". <b>Attention!</b> "
+"When you install dummy data all content of your site will be replaced!"
+msgstr ""
+
+#: includes/theme.options.php:2619
+msgid ""
+"In debug mode we are using unpacked scripts and styles, else - using "
+"minified scripts and styles (if present). <b>Attention!</b> If you have "
+"modified the source code in the js or css files, regardless of this option "
+"will be used latest (modified) version stylesheets and scripts. You can re-"
+"create minified versions of files using on-line services or utility "
+"<b>yuicompressor-x.y.z.jar</b>"
+msgstr ""
+
+#: includes/theme.options.php:2626
+msgid "API Keys for some Web services"
+msgstr ""
+
+#: includes/theme.options.php:2630
+msgid ""
+"Insert Google API Key for browsers into the field above to generate Google "
+"Maps"
+msgstr ""
+
+#: includes/theme.options.php:2636
+msgid "Settings for the users login and registration"
+msgstr ""
+
+#: includes/theme.options.php:2641
+msgid ""
+"Specify shortcode from your Social Login Plugin or any HTML/JS code to make "
+"Social Login section"
+msgstr ""
+
+#: templates/404.php:37
+msgid "We are sorry! <span>Error 404!</span><br> This page could not be found."
+msgstr ""
+
+#: templates/404.php:38
+#, php-format
+msgid ""
+"Can't find what you need? Take a moment and do<br> a search below or start "
+"from <a href=\"%s\">our homepage</a>."
+msgstr ""
+
+#: templates/_parts/reviews-block.php:45
+#, php-format
+msgid "Summary rating from <b>%s</b> user's marks."
+msgstr ""
+
+#: templates/no-search.php:31
+#, php-format
+msgid ""
+"Go back, or return to <a href=\"%s\">%s</a> home page to choose a new page."
+msgstr ""

@@ -1,0 +1,186 @@
+@charset 'utf-8';
+/*
+ Theme Name:   Grace-church Child
+ Theme URI:    http://gracechurch.ancorathemes.com/
+ Description:  Grace-church - Fully Responsive and Mobile Friendly theme
+ Author:       AncoraThemes
+ Author URI:   http://ancorathemes.com
+ Template:     grace-church
+ Version:      1.0
+ Tags:         light, inheritable theme-options
+ Text Domain:  grace-church
+*/
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+/* CSS Root */
+:root {
+  --red: #d9534f;
+  --yellow: #eea032;
+  --green: #5bb38d;
+  --teal: #17a2b8;
+  --cyan: #00aced;
+  --white: #fff;
+  --gray: #8D8E8C;
+  --gray-dark: #393A38;
+  --black: #000;
+  --bordeaux: #9F033A;
+  --secondary: #685C5A;
+  --success: #5bb38d;
+  --info: #00aced;
+  --warning: #eea032;
+  --danger: #d9534f;
+  --light: #F4F1F3;
+  --dark: #2F201E;
+  --text: #473A38;
+  --mid-gray: #8C848B;
+  --borders: #D9D2D3;
+  --light-gray: #C5BFC0;
+
+  /* --gray-100: #F8F9F7;
+  --gray-200: #EBECEA;
+  --gray-300: #E1E2E0;
+  --gray-400: #D0D1CF;
+  --gray-500: #B6B5B4;
+  --gray-600: #8D8E8C;
+  --gray-700: #50514F;
+  --gray-800: #393A38;
+  --gray-900: #242523; */
+  --breakpoint-xs: 0;
+  --breakpoint-xm: 375px;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+}
+/* Counter in Slider */
+.slider_wrap .sc_countdown .sc_countdown_digits,
+.slider_wrap .sc_countdown .sc_countdown_digits span {
+overflow: visible !important;
+}
+
+/* make events show on top of slider */
+.slider_wrap.additional_area .sc_section.additional_area_item {
+background: rgba(47,32,30,.5);
+z-index: 2;
+}
+
+/* mobile header menu */
+.responsive_menu.top_panel_over .menu_main_responsive {
+  top: 64px;
+}
+
+.responsive_menu.top_panel_over .top_panel_style_4 .search_wrap {
+  max-width: 100%;
+}
+.responsive_menu.top_panel_over .top_panel_style_4 .search_wrap.search_opened {
+  max-width: none;
+  width: 250% !important;
+  margin-top: 8px;
+  transform: translate(-60%, 0);
+}
+
+/* .home {} */
+
+.vc_mobile .home .top_panel_wrap {
+  background: var(--dark);
+  background: var(--text);
+}
+
+.vc_mobile .home .page_content_wrap.page_paddings_no {
+  padding: 40px 0 !important;
+}
+
+.vc_mobile .home .page_content_wrap {
+  margin-top: 188px;
+}
+
+@media (max-width: 768px) { 
+  .vc_mobile .home .page_content_wrap { 
+    margin-top: 144px !important;
+  }
+}
+
+@media (max-width: 669px) { 
+  .vc_mobile .home .page_content_wrap { 
+    margin-top: 68px !important;
+  }
+}
+
+.home .slider_wrap + .page_content_wrap {
+  margin-top: 0;
+}
+.home .slider-wrap + .page_content_wrap.page_paddings_no {
+  padding: 5em 0;
+}
+
+
+@media (max-width: 669px) {
+  
+  .top_panel_wrap .content_wrap {
+    width: 100% !important;
+    padding: 0 12px !important;
+    box-sizing: border-box;
+  }
+  
+  .top_panel_wrap {
+    background: var(--dark);
+  }
+  .top_panel_middle {
+    padding: 0 ;
+    margin-top: 0 !important;
+  }
+  .top_panel_middle .logo {
+    margin-top: 0 !important;
+  }
+  .logo .logo_text {
+    font-size: 1rem !important;
+  }
+
+  .top_panel_middle .logo img {
+    margin-bottom: 0 !important;
+  }
+  
+  .logo a {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    margin: 0;
+  }
+  
+  .responsive_menu .top_panel_middle .content_wrap {
+    padding: 12px !important;  
+  }
+  
+  .responsive_menu.top_panel_over .top_panel_style_4 .contact_logo {
+    width: 60% !important;
+  }
+  
+  .responsive_menu.top_panel_over .top_panel_style_4 .menu_main_wrap {
+    padding-top: 4px !important;
+    padding-bottom: 0;
+    text-align: right !important;
+    vertical-align: top !important;
+    width: 40% !important;
+  }
+  .responsive_menu .top_panel_middle .menu_main_responsive_button {
+    top: 0 !important;
+    min-height: 36px;
+  }
+  
+}
+
+body.search .content .search_wrap .search_submit.icon-search:before, .post_item_404 .search_wrap .search_submit.icon-search:before {
+  content: "BUSCAR";
+}
+
+
+@media (max-width: 768px) {
+  
+  .logo .logo_text {
+    font-size: 1rem;
+  }
+}
+

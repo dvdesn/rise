@@ -1,0 +1,118 @@
+/* Buddy Press Styles
+----------------------------------------------- */
+
+#buddypress #item-body form#whats-new-form { 
+	margin-top: 1.5em; 
+}
+
+.buddypress select,
+#buddypress select { 
+	border: 1px solid #ddd;
+	color: #666;
+	font-weight: 300;
+}
+#buddypress #item-nav {
+	float:left;
+	width: auto;
+	margin-right:2.1429em;
+}
+#buddypress #item-nav li {
+	float:none;
+	display:block;
+	margin:0;
+}
+#buddypress #item-nav li a {
+	display:block;
+}
+#buddypress #item-body {
+	overflow:hidden;
+}
+#buddypress #item-body #subnav {
+	margin-top:0;
+}
+
+
+
+/* BB Press Styles
+----------------------------------------------- */
+
+#bbpress-forums  {
+	font-size: 1em;
+}
+#bbpress-forums ul.bbp-forums  {
+	margin-top: 4em;
+}
+#bbpress-forums ul.bbp-lead-topic,
+#bbpress-forums ul.bbp-topics,
+#bbpress-forums ul.bbp-forums,
+#bbpress-forums ul.bbp-replies,
+#bbpress-forums ul.bbp-search-results {
+	font-size: 1em;
+}
+
+#subscription-toggle {
+	float: right;
+}
+
+img.avatar-14 {
+	vertical-align: baseline;
+}
+
+.bbpress select { 
+	border: 1px solid #ddd;
+	color: #666;
+}
+
+div.bbp-template-notice.info {
+	display: block;
+	clear:both;
+	margin-top: 1.5em;
+}
+
+#bbpress-forums fieldset.bbp-form legend,
+#bbpress-forums li.bbp-header,
+#bbpress-forums li.bbp-footer {
+	font-weight: 400;
+	color: #222222;
+}
+
+.quicktags-toolbar input {
+	font-weight: 400 !important;
+}
+
+
+
+/* Both plugins styles
+----------------------------------------------- */
+
+/* Buttons */
+#bbpress-forums div.bbp-topic-content a,
+#buddypress button, #buddypress a.button, #buddypress input[type="submit"], #buddypress input[type="button"], #buddypress input[type="reset"], #buddypress ul.button-nav li a, #buddypress div.generic-button a, #buddypress .comment-reply-link, a.bp-title-button, #buddypress div.item-list-tabs ul li.selected a {
+	display:inline-block;
+	text-align:center;
+	padding:0.85em 1.15em !important;
+	font-size:1em;
+	line-height: 1.3em;
+	font-weight:700;
+	margin:0 4px 4px 0;
+	border:none;
+}
+#buddypress div.item-list-tabs ul li.selected a {
+	text-align: inherit;
+}
+#bbpress-forums div.bbp-topic-content a:hover,
+#buddypress button:hover, #buddypress a.button:hover, #buddypress input[type="submit"]:hover, #buddypress input[type="button"]:hover, #buddypress input[type="reset"]:hover, #buddypress ul.button-nav li a:hover, #buddypress div.generic-button a:hover, #buddypress .comment-reply-link:hover, a.bp-title-button:hover, #buddypress div.item-list-tabs ul li.selected a:hover {
+	border:none;
+}
+#buddypress div.item-list-tabs ul li a, #buddypress div.item-list-tabs ul li span {
+	font-size:1em;
+	padding:0.85em 1.15em;
+	line-height: 1.3em;
+	margin:0 4px 4px 0;
+}
+
+.bbpress img.avatar-14, .buddypress img.avatar-14 {
+	-webkit-border-radius: 50%;
+	   -moz-border-radius: 50%;
+			border-radius: 50%;
+}
